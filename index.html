@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/estilo.css">
+    <link rel="stylesheet" href="./css/fonts/icon.css">
     <title>Irina | Desarrolladora web</title>
 </head>
 
@@ -15,9 +16,10 @@
         <nav class="header__nav">
             <a class="header__brand" href="#"> <strong><span class="header--studio">STUDIO</span><span class="header--im">IM</span></strong></a>
             <ul class="header__ul">
-                <li class="header__li"> <a class="header__a" href="#"> Inicio</a></li>
-                <li class="header__li"> <a class="header__a" href="#">Portfolio</a></li>
-                <li class="header__li"> <a class="header__a" href="#">Contacto</a></li>
+                <li class="header__li"> <a class="header__a" href="#"> <strong>Inicio</strong></a></li>
+                <li class="header__li"> <a class="header__a" href="#"> <strong>Quién soy</strong></a></li>
+                <li class="header__li"> <a class="header__a" href="#"><strong>Portfolio</strong></a></li>
+                <li class="header__li"> <a class="header__a" href="#"> <strong>Contacto</strong></a></li>
             </ul>
         </nav>
     </header>
@@ -28,15 +30,41 @@
             <div class="index__titulos">
                 <h1 class="index__h1">Hola, soy <span class="index--vio">Irina</span></h1>
                 <h2 class="index__h2">Desarrolladora Web en potencia</h2>
+                <a download href="#">
+                    <button class="index__button">Descarga mi CV</button>
+                </a>  
             </div>
-            <img src="./assets/iri.png" alt="Irina Mancini">
+            <img class="index__img" src="./assets/iri.png" alt="Irina Mancini">
         </div>
-        <div class="index__portfolio">
-            <h3>PORTFOLIO</h3>
+        <div class="index__soy">
+            <h3 class="index__h3">QUIÉN SOY</h3>
+            <div class="index--raya"></div>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos nesciunt quidem magnam error doloribus minima laborum saepe enim tempore, impedit labore? Incidunt a velit rerum expedita dignissimos qui ipsam natus!</p>
         </div>
+        <div class="index__portfolio">
+            <h3 class="index__h3">PORTFOLIO</h3>
+            <div class="index--raya"></div>
+            <div class="index__container">
+                <div class="index__card card">
+                    <!-- <div class="index__card--img"></div> -->
+                    <div>
+                        <img src="./assets/mancini.png" alt="web de mancini y asoc" width="100%" >
+                    </div>
+                    <h4 class="index__card--h4">
+                            Mancini & Asoc.</h4>
+                    <p class="index__card--p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex laborum recusandae aliquam ullam earum, iste vel. Magni voluptatem labor</p>
+                    <div class="index__card--containerLogo">
+                        <a class="index__card--a" href="https://github.com/irina-mancini/comex-mancini.git"><span class="icon icon-github index__card--logo"></span></a>
+                       <a class="index__card--a" href="
+                       https://manciniyasoc.netlify.app/"> <span class="icon icon-world index__card--logo"></span></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
         <div class="index__contacto">
-            <H3>CONTACTO</H3>
+            <H3 class="index__h3">CONTACTO</H3>
+            <div class="index--raya"></div>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut libero eveniet illum saepe accusantium possimus quam amet dolore odit ratione, laudantium facilis rem hic veritatis porro facere, similique nisi perferendis.</p>
         </div>
 
@@ -46,9 +74,6 @@
     <footer class="footer">
         <div class="footer__mail">
             <span class="footer--mail">irinamancini@gmail.com</span>
-        </div>
-        <div class="footer__link">
-            <a class="footer--link" href="https://www.linkedin.com/in/irina-mancini/"><i class="fa-brands fa-linkedin"></i></a>
         </div>
      </footer>
     
