@@ -1,0 +1,56 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('icomoon.eot?nqzkry');
+  src:  url('icomoon.eot?nqzkry#iefix') format('embedded-opentype'),
+    url('icomoon.ttf?nqzkry') format('truetype'),
+    url('icomoon.woff?nqzkry') format('woff'),
+    url('icomoon.svg?nqzkry#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.icon {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-javascript:before {
+  content: "\e901";
+  color: #f7df1e;
+}
+.icon-sass:before {
+  content: "\e900";
+  color: #c69;
+}
+.icon-world:before {
+  content: "\e902";
+}
+.icon-mail2:before {
+  content: "\ea84";
+}
+.icon-github:before {
+  content: "\eab0";
+}
+.icon-html-five2:before {
+  content: "\eae5";
+}
+.icon-css3:before {
+  content: "\eae6";
+}
+.icon-git:before {
+  content: "\eae7";
+}
+.icon-heart:before {
+  content: "\e9da";
+}
